@@ -8,6 +8,8 @@
         DarkElixir,
         WarGold,
         WarElixir,
-        WarDarkElixir
+        WarDarkElixir,
+        Gold2,
+        Elixir2
     }
 }
