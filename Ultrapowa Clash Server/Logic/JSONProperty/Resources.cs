@@ -123,6 +123,8 @@ namespace UCS.Logic.JSONProperty
             this.Set(Enums.Resource.Elixir, Utils.ParseConfigInt("startingElixir"));
 
             this.Set(Enums.Resource.DarkElixir, Utils.ParseConfigInt("startingDarkElixir"));
+            this.Set(Enums.Resource.Gold2. Utils.ParseConfigInt("startingBuilderGold"));
+            this.Set(Enums.Resource.Elixir2. Utils.ParseConfigInt("startingBuilderElixir"));
         }
     }
 }
