@@ -10,6 +10,7 @@
         WarElixir,
         WarDarkElixir,
         Gold2,
-        Elixir2
+        Elixir2,
+        Medals,
     }
 }
