@@ -9,6 +9,7 @@ namespace UCS.Files.Logic
             LoadData(this, GetType(), row);
         }
 
+        public string Name { get; set; }
         public int ExpPoints { get; set; }
     }
 }
