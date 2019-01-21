@@ -7,6 +7,7 @@
   <add key="startingDarkElixir" value="999999999" />
   <add key="startingBuilderGold" value="999999999" />
   <add key="startingBuilderElixir" value="999999999" />
+  <add key="startingMedals" value="300000" />
       <!-- Beware, very high values for resources will crash UCS -->
   <add key="startingTrophies" value="random" />
       <!-- User starting trophies - set to 'random' for random starting trophies -->
