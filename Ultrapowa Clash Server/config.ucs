@@ -6,7 +6,7 @@
   <add key="startingElixir" value="2000" />
   <add key="startingDarkElixir" value="2000" />
       <!-- Beware, very high values for resources will crash UCS -->
-  <add key="startingTrophies" value="random" />
+  <add key="startingTrophies" value="0" />
       <!-- User starting trophies - set to 'random' for random starting trophies -->
   <add key="startingLevel" value="1" />
       <!-- User starting XP level (Beware, 9 is the highest starting level) -->
