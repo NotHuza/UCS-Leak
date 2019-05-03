@@ -17,10 +17,11 @@ namespace UCS
 {
     internal class Program
     {
-        internal static int OP                   = 0;
-        internal static string Title             = $"Ultrapowa Clash Server v{Constants.Version} - ©Ultrapowa | Online Players: ";
-        public static Stopwatch _Stopwatch       = new Stopwatch();
+        internal static int OP = 0;
+        internal static string Title = $"Ultrapowa Clash Server v{Constants.Version} Mod B1 - Â©Ultrapowa & Naix | Online Players: ";
+        public static Stopwatch _Stopwatch = new Stopwatch();
         public static string Version { get; set; }
+        public static String LIC = "null"; 
 
         internal static void Main()
         {
@@ -58,14 +59,17 @@ namespace UCS
             if (Constants.LicensePlanID == 3)
             {
                 Console.Title = Title + OP;
+                LIC = "Ultra";
             }
             else if(Constants.LicensePlanID == 2)
             {
                 Console.Title = Title + OP + "/700";
+                LIC = "Pro";
             }
             else if (Constants.LicensePlanID == 1)
             {
                 Console.Title = Title + OP + "/350";
+                LIC = "Lite";
             }
 
             Say();
@@ -84,10 +88,12 @@ namespace UCS
             Console.ForegroundColor = ConsoleColor.Blue;
             Logger.WriteCenter("+-------------------------------------------------------+");
             Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.Green;
             Logger.WriteCenter("|This program is made by the Ultrapowa Development Team.|");
             Logger.WriteCenter("|    Ultrapowa is not affiliated to \"Supercell, Oy\".    |");
+            Logger.WriteCenter("|         Nor is Naix affiliated to \"Supercell, Oy\".    |");
             Logger.WriteCenter("|        This program is copyrighted worldwide.         |");
-            Logger.WriteCenter("|   Visit www.ultrapowa.com daily for News & Updates!   |");
+            Logger.WriteCenter("|         Modified by Naix to Ensure Functionality      |");
             Console.ForegroundColor = ConsoleColor.Blue;
             Logger.WriteCenter("+-------------------------------------------------------+");
             Console.ResetColor();
@@ -104,17 +110,17 @@ namespace UCS
             {
                 Console.WriteLine($"> UCS is up-to-date: {Constants.Version}");
                 Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Say();
+                Say("License Plan: " + LIC );
                 Say();
                 Say("Preparing Server...\n");
-
                 Resources.Initialize();
             }
             else if (Version == "Error")
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("> An Error occured when requesting the Version number.");
-                Console.WriteLine();
-                Logger.Say("Please contact the Support at https://ultrapowa.com/forum!");
                 Console.WriteLine();
                 Logger.Say("Aborting...");
                 Thread.Sleep(5000);
