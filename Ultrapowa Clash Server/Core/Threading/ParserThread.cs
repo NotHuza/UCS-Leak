@@ -196,7 +196,7 @@ namespace UCS.Helpers
 
                         case "/info shutdown":
                             Print("---------------------------------------------------------------------------->");
-                            Say(@"/exit > Shuts Down UCS instantly after doing the following:");
+                            Say(@"/shutdown > Shuts Down UCS instantly after doing the following:");
                             Say(@"     - Throws all Players an 'Client Out of Sync Message'");
                             Say(@"     - Disconnects All Players From the Server");
                             Say(@"     - Saves all Players in Database");
