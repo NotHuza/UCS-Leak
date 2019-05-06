@@ -12,7 +12,6 @@ using static UCS.Core.Logger;
 using System.Threading.Tasks;
 using UCS.Logic.Enums;
 using UCS.Helpers;
-using System.Diagnostics;
 
 namespace UCS.Core
 {
@@ -397,7 +396,6 @@ namespace UCS.Core
 
                                 }
                                 await context.SaveChangesAsync();
-                                context.SaveChanges();
                             }
                             break;
                         }
@@ -409,9 +407,8 @@ namespace UCS.Core
                         }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Debug.WriteLine(ex.ToString());
             }
         }
 
@@ -446,7 +443,6 @@ namespace UCS.Core
 
                                 }
                                 await context.SaveChangesAsync();
-                                context.SaveChanges();
                             }
                             break;
                         }
@@ -458,9 +454,8 @@ namespace UCS.Core
                         }
                 }
             }
-            catch (Exception ez)
-            {
-                Debug.WriteLine(ez.ToString());
+            catch (Exception)
+            {           
             }
         }
     }
