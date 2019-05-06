@@ -12,6 +12,7 @@ using static UCS.Core.Logger;
 using System.Threading.Tasks;
 using UCS.Logic.Enums;
 using UCS.Helpers;
+using System.Diagnostics;
 
 namespace UCS.Core
 {
@@ -392,6 +393,9 @@ namespace UCS.Core
 
                                         p.Avatar = pl.Avatar.SaveToJSON();
                                         p.GameObjects = pl.SaveToJSON();
+                                        Debug.WriteLine("GameObjects JSON Dump : " + p.GameObjects)
+                                        /*Notice how the JSON does not correspond with the Actual game objects on the andriod client*/
+                                        /*How i know this ? Upgrade a building to level 3 the json should list a level 2 however it doesn't save on second save only the first 2 building that you upgrade*/
                                     }
 
                                 }
