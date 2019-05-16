@@ -100,7 +100,7 @@ namespace UCS
 
             _Stopwatch.Start();
 
-            if /*(Version == Constants.Version)*/ true
+            if /*(Version == Constants.Version)*/ true;
             {
                 Console.WriteLine($"> UCS is up-to-date: {Constants.Version}");
                 Console.ResetColor();
