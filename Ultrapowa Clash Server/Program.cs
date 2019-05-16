@@ -18,7 +18,7 @@ namespace UCS
     internal class Program
     {
         internal static int OP                   = 0;
-        internal static string Title             = $"Ultrapowa Clash Server v{Constants.Version} - ©Ultrapowa | Online Players: ";
+        internal static string Title             = $"Ultrapowa Clash Server v{Constants.Version} - Â©Ultrapowa | Online Players: ";
         public static Stopwatch _Stopwatch       = new Stopwatch();
         public static string Version { get; set; }
 
@@ -96,11 +96,11 @@ namespace UCS
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("[UCS]    ");
-            Version = VersionChecker.GetVersionString();
+            //Version = VersionChecker.GetVersionString();
 
             _Stopwatch.Start();
 
-            if (Version == Constants.Version)
+            if /*(Version == Constants.Version)*/ true
             {
                 Console.WriteLine($"> UCS is up-to-date: {Constants.Version}");
                 Console.ResetColor();
