@@ -96,11 +96,11 @@ namespace UCS
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("[UCS]    ");
-            //Version = VersionChecker.GetVersionString();
+            Version = VersionChecker.GetVersionString();
 
             _Stopwatch.Start();
 
-            if /*(Version == Constants.Version)*/ true;
+            if (Version == Constants.Version)
             {
                 Console.WriteLine($"> UCS is up-to-date: {Constants.Version}");
                 Console.ResetColor();
