@@ -42,10 +42,11 @@ namespace UCS.Packets.GameOpCommands
                         "\n/visit" +
                         "\n/sysmsg" +
                         "\n/id" +
-                        "\n/max" +
+                        "\n/refill" +
                         "\n/saveacc" +
                         "\n/saveall" +
                         "\n/becomeleader" +
+                        "\n/clearn" +
                         "\n/status";
 
                     var p = new AvatarStreamEntryMessage(level.Client);
