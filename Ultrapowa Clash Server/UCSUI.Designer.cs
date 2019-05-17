@@ -2250,7 +2250,7 @@ namespace UCS
             this.materialLabel40.Name = "materialLabel40";
             this.materialLabel40.Size = new System.Drawing.Size(272, 38);
             this.materialLabel40.TabIndex = 2;
-            this.materialLabel40.Text = "             ©Ultrapowa 2014-2017\r\nThis program is copyrighted worldwide.";
+            this.materialLabel40.Text = "             ©Ultrapowa 2014-2019\r\nThis program is copyrighted worldwide.";
             // 
             // materialTabSelector1
             // 
