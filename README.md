@@ -15,8 +15,7 @@ Projects developed by the Ultrapowa Development Team include:
 
 * [Ultrapowa - Home Page](http://ultrapowa.com/)
 * [Ultrapowa - Forum](http://ultrapowa.com/forum)
-
-##cooming soon new links for pached apks it links not work has delted
+*[Clash of Clans-pacthed APK - v8.706.2 (http://www.mediafire.com/file/fg86v1njbb115ce/Clash_of_clans%288.709.2%29pach.apk)
 * [Clash of Clans - Patched APK - v8.709.16](https://uploadify.net/5b9fad82894225d6/Ultrapowa_8.709.16_Client.apk)
 
 ##License
